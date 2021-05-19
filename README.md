@@ -4,17 +4,19 @@ This is a React native app created using expo and made for android only.
 
 To run this app you will need a live android simulator.You can use Android studio for that.
 
-OR
+# About Application 
 
-1.Install the expo go app from playstore.
-
-2.After running npm start in vscode , you will get one QR code.Just scan the QR code on the expo go app. This way you will able to watch this app on your Smartphone live.
-
-Features in the app:
-
-Search for the user.
-Use the GitHub api to fetch the user bio, avatar, no of followers and followings, no of public gists and repos, the last updated time.
+Display Default list of all users and search particular user.
+Use the GitHub api to fetch the user bio, avatar, no of followers and followings, no of public gists and repos and the last updated time.
 Display the list of followers and followings the user has.
+
+For this application need to install following libraries:
+1) npm install --save redux react-redux
+2) npm install --save axios
+3) npm i react-native-vector-icons
+4) npm install @react-navigation/native @react-navigation/stack
+5) npm install --save moment react-moment
+
 
 ScreenShots of the Application
 ![1](https://user-images.githubusercontent.com/82994022/118757035-d6e08200-b889-11eb-9e67-1204295593cd.png)
